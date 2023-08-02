@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox-Practice</title>
+    <style>
+        .div1
+        {
+            background-color: lightblue;
+        }
+        .div2
+        {
+            background-color: lightpink;
+        }
+        .main1
+        {
+            display: flex;
+            flex-direction: row;
+        }
+    </style>
+</head>
+<body style="padding-bottom: 1000px;">
+    <div class="main1">
+        <div class="div1">Div1 text1</div>
+        <div class="div2">Div2<p>Text area</p></div>
+    </div>
+
+    <div class="main1" style="margin-top: 30px;">
+        <div class="div1" style="width: 100px;">100px</div>
+        <div class="div2" style="flex: 1;">flex:1</div>
+    </div>
+
+    <div class="main1" style="margin-top: 30px;">
+        
+        <div class="div2" style="flex: 1;">flex:1</div>
+        <div class="div1" style="width: 100px;">100px</div>
+        <div class="div1" style="flex: 2; background-color: lightpink;">flex:2</div>
+    </div>
+
+    <div class="main1" style="margin-top: 30px; height: 70px; border-width: 1px; border-style: solid; border-color: gray; justify-content:center;">
+        
+        <div class="div2" style="width: 100px;">100px</div>
+        <div class="div1" style="width: 100px;">100px</div>
+        <div class="div1" style="width: 100px; background-color: lightpink;">100px</div>
+    </div>
+
+    <div class="main1" style="margin-top: 30px; height: 70px; border-width: 1px; border-style: solid; border-color: gray; justify-content:space-between;">
+        
+        <div class="div2" style="width: 100px;">100px</div>
+        <div class="div1" style="width: 100px;">100px</div>
+        <div class="div1" style="width: 100px; background-color: lightpink;">100px</div>
+    </div>
+
+    <div class="main1" style="margin-top: 30px; height: 70px; border-width: 1px; border-style: solid; border-color: gray; justify-content:space-between; align-items: center;">
+        
+        <div class="div2" style="width: 100px;">100px</div>
+        <div class="div1" style="width: 100px;">100px</div>
+        <div class="div1" style="width: 100px; background-color: lightpink;">100px</div>
+    </div>
+</body>
+</html>
